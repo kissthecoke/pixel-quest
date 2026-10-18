@@ -1,0 +1,30 @@
+{
+  "name": "pixel-quest",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans-kr": "5.2.5",
+    "@fontsource/press-start-2p": "5.2.5",
+    "@fontsource/vt323": "5.2.5",
+    "@fortawesome/fontawesome-free": "6.7.2",
+    "@supabase/ssr": "0.12.6",
+    "@supabase/supabase-js": "2.117.2",
+    "next": "15.5.27",
+    "react": "19.1.9",
+    "react-dom": "19.1.9",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "@types/react": "19.1.8",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.3"
+  }
+}
