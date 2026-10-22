@@ -92,7 +92,7 @@ export default function RetroProvider({ children }: { children: React.ReactNode 
 
   return (
     <Ctx.Provider value={{ soundOn, toggleSound, crtOn, toggleCrt, coins, level: levelOf(coins), addCoins, play, toast }}>
-      <div className={`min-h-screen flex flex-col ${crtOn ? 'crt-overlay crt-glow' : ''}`}>{children}</div>
+      <div className={`min-h-screen flex flex-col ${crtOn ? 'crt-overlay' : ''}`}>{children}</div>
       {toastMsg && (
         <div role="status" className="fixed left-1/2 -translate-x-1/2 z-[60] bg-slate-950 border-2 border-amber-400 text-amber-400 font-pixel text-[10px] px-4 py-3 whitespace-nowrap"
           style={{ bottom: 'calc(20px + env(safe-area-inset-bottom, 0px))' }}>{toastMsg}</div>
